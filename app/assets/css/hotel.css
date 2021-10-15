@@ -1,0 +1,3461 @@
+body {
+    font-family: normal;
+    overflow: hidden
+}
+
+@font-face {
+    font-family: normal;
+    src: url(power.woff)
+}
+
+@font-face {
+    font-family: habbofont;
+    src: url(habbfont.woff)
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+#lotext {
+    position: absolute;
+    width: 100%;
+    font-size: 240%;
+    color: rgba(0, 0, 0, .3);
+    text-align: center;
+    bottom: 60px
+}
+
+#lo1 {
+    position: fixed;
+    display: none;
+    height: calc(100% + 5px);
+    width: calc(100% + 5px);
+    background: linear-gradient(rgb(116, 128, 250), rgb(122, 177, 201));
+    z-index: 999;
+    left: -5px;
+    top: -5px;
+    user-select: none
+}
+
+#lo2 {
+    position: absolute;
+    height: 58px;
+    width: 58px;
+    right: 195px;
+    bottom: -90px;
+    background: url(../img/pagetemplate.png?5g5g) -426px -209px;
+    -webkit-animation: spin .4s linear infinite;
+    animation: spin .4s linear infinite
+}
+
+#lo3 {
+    position: absolute;
+    height: 58px;
+    width: 147px;
+    background: url(../img/pagetemplate.png?5g5g) -5px -71px;
+    bottom: -90px;
+    right: 230px
+}
+
+#lo4 {
+    position: relative;
+    height: 320px;
+    width: 570px;
+    left: calc(50% - 285px);
+    top: calc(50% - 160px)
+}
+
+#lo5 {
+    position: absolute;
+    font-size: 260%;
+    color: #fff;
+    top: -80px;
+    left: 125px
+}
+
+#lo6 {
+    position: absolute;
+    width: 125px;
+    height: 260px;
+    filter: grayscale(70%);
+    top: 30px;
+    background: #7f7f7f;
+    border-radius: 13px 0 0 13px;
+    overflow: hidden
+}
+
+#lo7 {
+    position: absolute
+}
+
+#lo8 {
+    position: absolute;
+    left: 125px;
+    height: 320px;
+    width: 320px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, .6);
+    background: #7f7f7f;
+    border-radius: 13px;
+    overflow: hidden
+}
+
+#lo9 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    width: 100%;
+    height: 90px
+}
+
+#lo10 {
+    position: absolute;
+    -webkit-filter: drop-shadow(1px 1px 0 #fff) drop-shadow(-1px 0px 0 #fff) drop-shadow(0 -1px 0 #fff);
+    left: 0;
+    bottom: -4px;
+    height: 80px;
+    width: 65px
+}
+
+#lo11 {
+    position: absolute;
+    bottom: 19px;
+    left: 65px;
+    font-size: 200%;
+    color: #fff
+}
+
+#lo12 {
+    position: absolute;
+    font-family: habbofont, normal;
+    cursor: pointer;
+    top: calc(50% - 30px);
+    z-index: 2;
+    width: calc(100% - 12px);
+    word-wrap: break-word;
+    background: rgba(0, 0, 0, .5);
+    padding: 6px;
+    text-align: center;
+    font-size: 120%;
+    color: #fff
+}
+
+#lo13 {
+    position: absolute;
+    right: 0;
+    width: 125px;
+    height: 260px;
+    filter: grayscale(70%);
+    top: 30px;
+    background: #7f7f7f;
+    border-radius: 0 13px 13px 0;
+    overflow: hidden
+}
+
+#hotel6 {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden
+}
+
+#hotel7 {
+    position: relative;
+    width: 550px;
+    height: 255px;
+    left: 50%;
+    margin-left: -275px;
+    top: 50%;
+    margin-top: -135px
+}
+
+#hotel8 {
+    position: relative;
+    font-size: 200%;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    left: 10px
+}
+
+#hotel9 {
+    position: relative;
+    height: 200px;
+    width: 310px;
+    background: url(../img/probleme_data.png?5g5g);
+    float: left
+}
+
+#hotel10 {
+    position: relative;
+    width: 240px;
+    float: right;
+    margin-top: 25px;
+    height: 160px
+}
+
+#hotel11 {
+    position: relative;
+    width: 100%;
+    font-size: 120%;
+    color: #fff
+}
+
+#hotel12 {
+    position: absolute;
+    bottom: 0;
+    background: #ea1674;
+    height: 80px;
+    width: calc(100% - 10px);
+    color: #fff;
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#hotel12:hover {
+    opacity: .7
+}
+
+#hotel13 {
+    position: fixed;
+    min-height: 370px;
+    width: 670px;
+    top: 0;
+    left: 0;
+    user-select: none;
+    background: rgba(19, 32, 48, .8);
+    z-index: 999;
+    display: none;
+    top: 120px
+}
+
+#hotel14 {
+    position: relative;
+    width: 590px;
+    min-height: 275px;
+    left: 50%;
+    margin-left: -520px;
+    top: 50%;
+    margin-top: 45px
+}
+
+#hotel15 {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    background: #ff9248;
+    border-radius: 100%;
+    top: 5px
+}
+
+#hotel16 {
+    position: absolute;
+    height: 20px;
+    width: 9px;
+    left: 9px;
+    top: 3px
+}
+
+#hotel17 {
+    position: absolute;
+    font-size: 200%;
+    color: #fff;
+    left: 30px;
+    text-transform: uppercase
+}
+
+#hotel18 {
+    position: absolute;
+    font-size: 120%;
+    background: #ff9248;
+    padding: 1px 17px 1px 7px;
+    top: 6px;
+    right: 22px;
+    color: #fff
+}
+
+#hotel19 {
+    position: absolute;
+    right: -14px;
+    top: -25px
+}
+
+#hotel20 {
+    position: relative;
+    float: left;
+    height: 250px;
+    width: 220px;
+    top: 45px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -100px
+}
+
+#hotel21 {
+    position: absolute;
+    padding: 15px;
+    font-size: 120%;
+    color: #fff;
+    right: 5px;
+    background: rgba(7, 13, 20, .5);
+    width: 325px;
+    border-radius: 7px;
+    top: 45px
+}
+
+#hotel22x {
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: -webkit-box;
+    max-height: 500px;
+    -webkit-line-clamp: 13;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 40px
+}
+
+#hotel22 {
+    position: relative;
+    font-size: 120%;
+    color: #fff;
+    right: 5px;
+    width: 355px;
+    border-radius: 7px;
+    padding-bottom: 60px;
+    margin-left: 15px;
+    float: left;
+    margin-top: 125px
+}
+
+#hotel23 {
+    position: relative;
+    top: 0;
+    font-size: 85%;
+    left: 90px
+}
+
+#hotel24 {
+    position: relative;
+    float: left;
+    height: 46px;
+    user-select: none;
+    cursor: pointer;
+    padding: 0 25px;
+    background: #ad1952;
+    border: 3px solid #e97a99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 120%;
+    margin-right: 13px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3)
+}
+
+#hotel24:hover {
+    background: #d11f62;
+    border: 3px solid #ee99b0
+}
+
+#hotel24:active {
+    border: 3px solid #ad1952;
+    background: #ad1952
+}
+
+#hotel25 {
+    position: relative;
+    float: left;
+    height: 46px;
+    user-select: none;
+    cursor: pointer;
+    padding: 0 30px;
+    background: #04a057;
+    border: 3px solid #bbf699;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 120%;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3)
+}
+
+#hotel25:hover {
+    background: #04d070;
+    border: 3px solid #cef9b5
+}
+
+#hotel25:active {
+    border: 3px solid #04a057;
+    background: #04a057
+}
+
+#hotel26 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}
+
+#hotel27 {
+    position: fixed;
+    height: calc(100% + 5px);
+    width: calc(100% + 5px);
+    z-index: 99999;
+    background: rgba(22, 26, 34, .9);
+    left: -5px;
+    top: -5px;
+    display: none
+}
+
+#flash1 {
+    position: absolute;
+    height: 390px;
+    width: 730px;
+    top: 50%;
+    margin-top: -195px;
+    left: 50%;
+    margin-left: -365px
+}
+
+#flash2 {
+    position: relative;
+    color: #fff;
+    font-size: 370%;
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+#flash3 {
+    position: relative;
+    height: 270px;
+    width: 350px;
+    background: #f14b54;
+    float: left;
+    text-align: center
+}
+
+#flash4 {
+    position: relative;
+    color: #fff;
+    font-size: 140%;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    top: 25px
+}
+
+#flash5 {
+    position: relative;
+    height: 270px;
+    width: 350px;
+    background: #3e99ff;
+    float: right;
+    text-align: center
+}
+
+#flash6 {
+    position: relative;
+    color: #fff;
+    font-size: 120%;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+    top: 25px
+}
+
+#flash7 {
+    position: fixed;
+    height: 90px;
+    width: 840px;
+    left: calc(50% - 420px);
+    background: rgba(255, 255, 255, .3);
+    z-index: 9999;
+    display: flex;
+    justify-content: center
+}
+
+#flash8 {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    right: 0;
+    top: 0;
+    background: rgba(255, 255, 255, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 400%;
+    color: #5a5a5a
+}
+
+#flash-container {
+    visibility: hidden
+}
+
+#client-ui {
+    height: 100%
+}
+
+#flash-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden
+}
+
+#flashx1 {
+    position: absolute;
+    width: 639px;
+    height: 368px;
+    background: url(../img/flash_error_bg.png?5g5g);
+    left: calc(50% - 345px);
+    top: calc(50% - 225px)
+}
+
+#flashx2 {
+    position: relative;
+    font-size: 200%;
+    text-transform: uppercase;
+    color: #fff;
+    left: 235px;
+    top: 80px
+}
+
+#flashx3 {
+    position: absolute;
+    font-size: 115%;
+    top: 125px;
+    left: 235px;
+    width: 380px;
+    color: #7ecaee
+}
+
+#flashx4 {
+    position: absolute;
+    cursor: pointer;
+    bottom: 25px;
+    right: 18px;
+    background: #ffb900;
+    border: 2px solid #ffea00;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 140%
+}
+
+#flashx4:hover {
+    opacity: .6
+}
+
+#flashx5 {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    bottom: -100px
+}
+
+#flashx6 {
+    position: relative;
+    font-size: 200%;
+    text-transform: uppercase;
+    color: #fff
+}
+
+#flashx7 {
+    position: absolute;
+    font-size: 110%;
+    color: #fff;
+    width: 530px
+}
+
+#flashx8 {
+    position: absolute;
+    height: 115px;
+    right: -13px;
+    top: -8px;
+    width: 115px;
+    background: url(../img/puffin.png?5g5g);
+    background-size: contain
+}
+
+.ca1 {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgb(170, 88, 182), rgb(49, 102, 238));
+    z-index: 999999999999
+}
+
+.ca2 {
+    position: absolute;
+    height: 642px;
+    width: 1010px;
+    top: calc(50% - 321px);
+    left: calc(50% - 505px)
+}
+
+.ca3 {
+    position: relative;
+    height: 150px;
+    width: 100%
+}
+
+.ca4 {
+    position: absolute;
+    height: 150px;
+    width: 172px;
+    background: url(../img/calendar/template2.png?5g5g);
+    left: -58px
+}
+
+.ca5 {
+    position: absolute;
+    font-size: 370%;
+    color: #fff;
+    left: 130px;
+    top: 10px
+}
+
+.ca6 {
+    position: absolute;
+    font-size: 180%;
+    color: #fff;
+    left: 130px;
+    top: 90px
+}
+
+.ca7 {
+    position: absolute;
+    cursor: pointer;
+    image-rendering: pixelated;
+    transition: .1s;
+    height: 75px;
+    left: -85px;
+    top: calc(50% + 45px);
+    width: 67px;
+    background: url(../img/calendar/template2.png?5g5g) -173px -79px
+}
+
+.ca7:hover {
+    transform: scale(1.2)
+}
+
+.ca7:active {
+    transform: scale(1.1)
+}
+
+.ca8 {
+    position: absolute;
+    height: 75px;
+    cursor: pointer;
+    image-rendering: pixelated;
+    transition: .1s;
+    right: -85px;
+    top: calc(50% + 45px);
+    width: 67px;
+    background: url(../img/calendar/template2.png?5g5g) -173px 0
+}
+
+.ca8:hover {
+    transform: scale(1.2)
+}
+
+.ca8:active {
+    transform: scale(1.1)
+}
+
+.ca9 {
+    position: relative;
+    width: calc(100% + 5px);
+    height: 447px
+}
+
+.ca10 {
+    position: relative;
+    float: left;
+    width: 202px;
+    height: 447px;
+    background: url(../img/calendar/day_generic_bg.png?5g5g)
+}
+
+.ca11 {
+    position: absolute;
+    height: 132px;
+    width: 132px;
+    background: url(../img/calendar/day_generic_button.png?5g5g);
+    bottom: 20px;
+    left: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.ca12 {
+    position: relative;
+    width: 100%px;
+    height: 447px;
+    top: 45px;
+    overflow: hidden
+}
+
+.ca13 {
+    position: absolute;
+    background: rgba(14, 15, 31, .2);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 404px
+}
+
+.ca14 {
+    position: absolute;
+    background: rgba(14, 15, 31, .2);
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 404px
+}
+
+.ca15 {
+    position: absolute;
+    left: -27px;
+    top: 70px;
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 11px;
+    font-size: 130%;
+    background: #32bf1a
+}
+
+.ca16 {
+    position: absolute;
+    height: 3px;
+    width: calc(100% - 10px);
+    left: 5px;
+    top: 3px;
+    background: #7dce6f
+}
+
+.ca15:hover {
+    background: #4bc836
+}
+
+.ca15:active {
+    background: #29831a
+}
+
+.ca16:active {
+    background: #63a058
+}
+
+.ca17 {
+    left: 16px;
+    top: 20px;
+    position: absolute;
+    height: 98px;
+    width: 99px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.ca18 {
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    background: #fff;
+    font-size: 120%;
+    top: 78px;
+    border-radius: 9px;
+    padding: 5px 10px
+}
+
+.ca19 {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    background: url(../img/croix2.png?5g5g);
+    right: 0;
+    top: 5px
+}
+
+.ca19:hover {
+    opacity: .7
+}
+
+.ca20 {
+    position: fixed;
+    height: 37px;
+    width: 100px;
+    cursor: pointer;
+    background: #fff;
+    left: 325px;
+    border-radius: 9px;
+    top: 20px;
+    z-index: 89999999999999;
+    font-size: 120%;
+    color: #7f7f7f;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3);
+    align-items: center
+}
+
+.ca21 {
+    position: absolute;
+    height: 51px;
+    width: 47px;
+    right: -28px;
+    top: -3px;
+    background: url(../img/calendar/icon_advent.png?5g5g)
+}
+
+.ca22 {
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    top: -14px;
+    border-radius: 100%;
+    background: #00d294
+}
+
+.ca23 {
+    position: absolute;
+    top: -290px;
+    right: 30px;
+    height: 42px;
+    width: 42px;
+    background: url(../img/calendar/generic_lock.png?5g5g)
+}
+
+.qp2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999999;
+    background: red;
+    height: 0;
+    width: 100%;
+    box-shadow: 0 30px 220px 70px #000;
+    display: none
+}
+
+.qp3 {
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    top: -200px
+}
+
+.qp4 {
+    position: absolute;
+    cursor: pointer;
+    image-rendering: pixelated;
+    transition: .1s;
+    height: 119px;
+    width: 152px;
+    background: url(../img/quickpoll.png?x);
+    left: 5px;
+    top: 8px
+}
+
+.qp4:hover {
+    transform: scale(.9)
+}
+
+.qp4:active {
+    transform: scale(.95)
+}
+
+.qp5 {
+    position: absolute;
+    cursor: pointer;
+    image-rendering: pixelated;
+    transition: .1s;
+    height: 119px;
+    width: 153px;
+    background: url(../img/quickpoll.png?x) -151px 0;
+    right: 5px;
+    top: 8px
+}
+
+.qp5:hover {
+    transform: scale(.9)
+}
+
+.qp5:active {
+    transform: scale(.95)
+}
+
+.qp6 {
+    position: absolute;
+    width: 470px;
+    height: 8px;
+    left: calc(50% - 235px);
+    background: #fff;
+    top: 10px;
+    border-radius: 15px;
+    overflow: hidden
+}
+
+.qp7 {
+    position: absolute;
+    height: 66px;
+    width: 72px;
+    left: calc(50% - 35px);
+    top: 26px;
+    background: url(../img/quickpoll.png?x) -305px -2px
+}
+
+.qp8 {
+    position: absolute;
+    font-size: 200%;
+    color: #fff;
+    width: 700px;
+    left: calc(50% - 350px);
+    word-break: break-word;
+    text-align: center;
+    top: 92px
+}
+
+.qp9 {
+    position: absolute;
+    font-size: 310%;
+    color: #fff;
+    left: 170px;
+    top: 36px
+}
+
+.qp10 {
+    position: absolute;
+    font-size: 310%;
+    color: #fff;
+    right: 170px;
+    top: 36px
+}
+
+.qp11 {
+    position: absolute;
+    height: 100%;
+    background: #2bd75f;
+    right: 0
+}
+
+.qp12 {
+    position: absolute;
+    height: 100%;
+    background: #f03e46
+}
+
+.da1 {
+    position: fixed;
+    top: -200px;
+    z-index: 9999;
+    left: calc(50% - 300px);
+    background: red;
+    height: 0;
+    width: 600px;
+    box-shadow: 0 30px 220px 70px #000
+}
+
+.da2 {
+    position: absolute;
+    width: calc(100% - 95px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    background: #fff;
+    border-radius: 6px;
+    top: 55px;
+    left: 95px
+}
+
+.da3 {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #18a3f5;
+    left: 0;
+    top: 0
+}
+
+.da4 {
+    position: absolute;
+    color: #054f7a;
+    font-size: 90%
+}
+
+.da5 {
+    position: absolute;
+    height: 144px;
+    width: 186px;
+    top: -30px;
+    background: url(../img/damantsbooster.png?5g5g)
+}
+
+.da6 {
+    position: absolute;
+    width: 84px;
+    height: 21px;
+    border-radius: 6px;
+    right: 0;
+    top: 22px;
+    background: #fff
+}
+
+.da7 {
+    position: absolute;
+    height: 27px;
+    right: 10px;
+    top: -3px;
+    width: 25px;
+    background: url(../img/damantsbooster.png?5g5g) -187px -2px
+}
+
+.da8 {
+    position: absolute;
+    font-size: 120%;
+    left: 17px;
+    top: 0
+}
+
+#notifcontainer {
+    position: fixed;
+    display: none;
+    width: 350px;
+    top: 120px;
+    max-height: calc(100% - 20px);
+    left: 0;
+    z-index: 9999999999
+}
+
+.notifelement {
+    position: absolute;
+    border-radius: 10px;
+    width: 220px;
+    left: -500px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 57px 0 rgba(0, 0, 0, .39);
+    -moz-box-shadow: 0 0 57px 0 rgba(0, 0, 0, .39);
+    box-shadow: 0 0 57px 0 rgba(0, 0, 0, .39)
+}
+
+#ntf1 {
+    position: relative;
+    left: 10px;
+    border-bottom: 2px solid #ebebeb;
+    width: calc(100% - 30px);
+    height: 46px
+}
+
+#ntf2 {
+    position: absolute;
+    width: 28px;
+    top: 10px;
+    height: 28px;
+    background: url(../img/pagetemplate.png?5g5g) -162px -222px
+}
+
+#ntf3 {
+    position: absolute;
+    font-size: 120%;
+    left: 35px;
+    top: 13px
+}
+
+#ntf4 {
+    position: relative;
+    word-wrap: break-word;
+    font-size: 100%;
+    color: #797171;
+    width: calc(100% - 30px);
+    left: 15px;
+    margin-top: 10px
+}
+
+#ntf5 {
+    position: absolute;
+    cursor: pointer;
+    padding: 7px 15px;
+    font-size: 100%;
+    color: #fff;
+    background: #5ea6ee;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 12px
+}
+
+#ntf5:hover {
+    opacity: .7
+}
+
+#ntf6 {
+    left: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    top: -50px;
+    background: #ff9248;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    height: 40px;
+    align-items: center;
+    width: 220px
+}
+
+#ntf6:hover {
+    background: #e65b00
+}
+
+input:focus {
+    outline: none
+}
+
+.mb1 {
+    position: fixed;
+    box-shadow: 0 0 80px -20px #000;
+    user-select: none;
+    z-index: 99999;
+    display: none;
+    top: 80px;
+    left: 80px;
+    background: #fff;
+    width: 256px;
+    height: 205px;
+    border-radius: 13px
+}
+
+.mb2 {
+    position: relative;
+    height: 53px;
+    border-bottom: 3px solid #cacaca;
+    left: 12px;
+    width: calc(100% - 24px)
+}
+
+.mb3 {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background: url(../img/buildmode.png?5g5g) -2px -3px;
+    top: 14px
+}
+
+.mb4 {
+    position: absolute;
+    font-size: 170%;
+    left: 35px;
+    top: 11px
+}
+
+.mb5 {
+    position: relative;
+    width: calc(100% - 24px);
+    left: 12px
+}
+
+.mb6 {
+    position: relative;
+    height: 42px
+}
+
+.mb7 {
+    position: relative;
+    font-family: normal;
+    font-size: 120%;
+    border: 0;
+    background: #cacaca;
+    width: calc(100% - 150px);
+    margin-top: 10px;
+    padding: 7px 5px 7px 40px
+}
+
+.mb7:active {
+    outline: none
+}
+
+.mb8 {
+    position: absolute;
+    top: 17px;
+    left: 8px;
+    height: 24px;
+    width: 24px;
+    background: url(../img/buildmode.png?5g5g) -32px -4px
+}
+
+.mb9 {
+    position: absolute;
+    top: 17px;
+    left: 8px;
+    height: 24px;
+    width: 24px;
+    background: url(../img/buildmode.png?5g5g) -57px -4px
+}
+
+.mb10 {
+    position: absolute;
+    top: 17px;
+    left: 8px;
+    height: 24px;
+    width: 24px;
+    background: url(../img/buildmode.png?5g5g) -83px -4px
+}
+
+.mb11 {
+    position: absolute;
+    cursor: pointer;
+    height: 37px;
+    width: 55px;
+    right: 0;
+    font-size: 90%;
+    top: 10px;
+    color: #fff;
+    background: #ff7f27;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.mb11:hover {
+    opacity: .8
+}
+
+.mb12 {
+    position: absolute;
+    height: 17px;
+    cursor: pointer;
+    width: 40px;
+    background: #00b3ff;
+    color: #fff;
+    right: 60px;
+    top: 10px;
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.mb13 {
+    position: absolute;
+    height: 17px;
+    cursor: pointer;
+    width: 40px;
+    background: #00b3ff;
+    color: #fff;
+    right: 60px;
+    top: 30px;
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.mb12:hover {
+    opacity: .8
+}
+
+.mb13:hover {
+    opacity: .8
+}
+
+#motto {
+    font-family: habbofont, normal
+}
+
+.ne1 {
+    position: fixed;
+    z-index: 999999999;
+    left: -1000px;
+    background: #fff;
+    width: 430px;
+    height: calc(100% - 50px);
+    top: 0
+}
+
+.ne2 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 355px 115px 0;
+    border-color: #fff transparent transparent transparent;
+    right: -100px
+}
+
+.ne3 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 140px 0 140px 55px;
+    border-color: transparent transparent transparent #fff;
+    right: -55px;
+    top: 310px
+}
+
+.ne4 {
+    position: absolute;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 140px 0 140px 55px;
+    border-color: transparent transparent transparent #ff9751;
+    right: -42px;
+    top: 310px
+}
+
+.ne4:hover {
+    opacity: .7
+}
+
+.ne5 {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background: url(../img/bienvenue.png?5g5g) -95px -49px;
+    left: -45px;
+    top: -13px
+}
+
+.ne6 {
+    position: absolute;
+    height: 37px;
+    width: 113px;
+    right: -80px;
+    background: #ff9751;
+    border-radius: 9px;
+    top: 20px;
+    cursor: pointer;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3)
+}
+
+.ne6:hover {
+    opacity: .7
+}
+
+.ne7 {
+    position: absolute;
+    width: 84px;
+    height: 25px;
+    background: url(../img/bienvenue.png?5g5g) -4px -61px;
+    left: 17px;
+    top: 7px
+}
+
+.ne8 {
+    position: absolute;
+    height: calc(100% - 110px);
+    width: 374px;
+    overflow: auto;
+    top: 90px;
+    left: 20px;
+    padding-right: 10px;
+    overflow-x: hidden
+}
+
+.ne8::-webkit-scrollbar {
+    width: 6px
+}
+
+.ne8::-webkit-scrollbar-track {
+    background: 0 0
+}
+
+.ne8::-webkit-scrollbar-thumb {
+    background: #d2d2d2;
+    border-radius: 6px
+}
+
+.ne9 {
+    position: relative;
+    font-size: 220%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #000
+}
+
+.ne10 {
+    position: relative;
+    cursor: pointer;
+    background: #e9e9e1;
+    margin-bottom: 25px;
+    height: 132px;
+    border-radius: 8px;
+    width: 100%
+}
+
+.ne10:hover {
+    opacity: .7
+}
+
+.ne11 {
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    border: 1px solid #000;
+    top: 10px;
+    left: 10px
+}
+
+.ne12 {
+    position: absolute;
+    color: #000;
+    font-size: 90%;
+    left: 130px;
+    top: 8px
+}
+
+.ne13 {
+    position: absolute;
+    height: 26px;
+    width: 44px;
+    background: url(../img/bienvenue.png?5g5g) -133px -1px;
+    right: 15px;
+    top: -5px
+}
+
+.ne14 {
+    position: relative;
+    cursor: pointer;
+    background: url(../img/bienvenue.png?5g5g) 0 -89px;
+    margin-bottom: 25px;
+    height: 182px;
+    overflow: hidden;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center
+}
+
+.ne14:hover {
+    opacity: .7
+}
+
+.ne15 {
+    transform: scale(2);
+    image-rendering: pixelated;
+    position: absolute;
+    left: 20px
+}
+
+.ne16 {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 150%;
+    color: #000;
+    left: 130px;
+    width: 198px;
+    top: 78px
+}
+
+.ne17 {
+    position: absolute;
+    padding: 6px 20px 6px 10px;
+    background: #89a7b2;
+    right: 39px;
+    font-size: 90%;
+    bottom: 20px
+}
+
+.ne18 {
+    position: absolute;
+    height: 37px;
+    width: 31px;
+    background: url(../img/bienvenue.png?5g5g) -49px -3px;
+    right: -18px;
+    top: -7px
+}
+
+.ne19 {
+    position: relative;
+    margin-bottom: 25px;
+    min-height: 140px;
+    border-radius: 8px;
+    width: 100%;
+    background: #00aef0
+}
+
+.ne20 {
+    position: relative;
+    height: 40px;
+    left: 12px;
+    top: 12px
+}
+
+.ne21 {
+    position: absolute;
+    height: 37px;
+    width: 37px;
+    background: url(../img/bienvenue.png?5g5g) -91px -5px
+}
+
+.ne22 {
+    position: absolute;
+    font-size: 170%;
+    color: #fff;
+    left: 50px;
+    top: 3px
+}
+
+.ne23 {
+    position: relative;
+    left: 12px;
+    width: calc(100% - 24px);
+    word-break: break-word;
+    margin-top: 60px;
+    font-size: 110%;
+    color: #fff;
+    top: -40px
+}
+
+.ne24 {
+    position: relative;
+    font-size: 120%;
+    color: #007aa8;
+    top: -20px;
+    width: calc(100% - 24px);
+    text-align: right
+}
+
+.ne25 {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 25px;
+    height: 160px;
+    border-radius: 8px;
+    width: 100%;
+    background: #00aef0
+}
+
+.ne25:hover {
+    opacity: .7
+}
+
+.ne26 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px
+}
+
+.ne27 {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.ne28 {
+    position: absolute;
+    padding: 7px;
+    width: calc(100% - 14px);
+    color: #fff;
+    bottom: 10px;
+    background: rgba(0, 0, 0, .5);
+    font-size: 120%
+}
+
+.ne29 {
+    position: absolute;
+    height: 53px;
+    top: -15px;
+    right: 10px;
+    width: 45px;
+    background: url(../img/bienvenue.png?5g5g) -3px -4px;
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.ne30 {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 25px;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 8px;
+    width: 100%
+}
+
+.ne30:hover {
+    opacity: .7
+}
+
+.ne31 {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    margin-bottom: 3px;
+    background: #c3c3c3
+}
+
+.ne32 {
+    position: absolute;
+    height: 37px;
+    width: 31px;
+    background: url(../img/bienvenue.png?5g5g) -49px -3px;
+    left: 5px;
+    top: 3px
+}
+
+.ne33 {
+    position: absolute;
+    padding: 5px 20px;
+    background: #7f7f7f;
+    color: #fff;
+    right: 7px;
+    top: 8px;
+    border-radius: 7px
+}
+
+.ne34 {
+    position: relative;
+    width: 100%;
+    background: #000;
+    height: 144px;
+    overflow: hidden
+}
+
+.ne35 {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 2px 1px 80px 30px #000
+}
+
+.ne36 {
+    -webkit-filter: drop-shadow(2px 1px 0 #fff) drop-shadow(-2px 1px 0 #fff) drop-shadow(0 -2px 0 #fff);
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    transform: scale(2);
+    image-rendering: pixelated
+}
+
+.ne37 {
+    position: absolute;
+    font-size: 180%;
+    color: #fff;
+    left: 60px;
+    top: 12px
+}
+
+.ne38 {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 25px;
+    height: 80px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #bebebe
+}
+
+.ne38:hover {
+    opacity: .7
+}
+
+.ne39 {
+    position: absolute;
+    font-size: 120%;
+    background: #b087f1;
+    padding: 10px;
+    border-radius: 50px 50px 50px 0;
+    left: -1px;
+    top: -5px;
+    color: #fff
+}
+
+.ne40 {
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.ne41 {
+    position: relative;
+    float: left;
+    margin-right: 10px
+}
+
+.ne42 {
+    position: relative;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(rgb(0, 207, 97), rgb(0, 126, 172))
+}
+
+.ne43 {
+    position: absolute;
+    color: #fff;
+    bottom: 10px;
+    left: 30px;
+    font-size: 120%;
+    text-transform: uppercase
+}
+
+.ne44 {
+    position: absolute;
+    -webkit-filter: drop-shadow(2px 1px 0 #fff) drop-shadow(-2px 1px 0 #fff) drop-shadow(0 -2px 0 #fff);
+    margin-top: -20px
+}
+
+.ccb1 {
+    position: fixed;
+    display: none;
+    cursor: pointer;
+    height: 26px;
+    width: 190px;
+    right: 4px;
+    top: 75px;
+    background: #fff;
+    z-index: 9999;
+    border-radius: 4px
+}
+
+.ccb2 {
+    position: absolute;
+    height: 38px;
+    image-rendering: pixelated;
+    width: 32px;
+    right: 0;
+    background: url(../img/hotel.png?8u8u);
+    top: -6px
+}
+
+.ccb3 {
+    position: absolute;
+    text-transform: uppercase;
+    text-decoration: underline;
+    right: 40px;
+    top: 5px;
+    font-size: 90%
+}
+
+.ccb4 {
+    position: absolute;
+    height: 30px;
+    image-rendering: pixelated;
+    width: 30px;
+    right: 0;
+    background: url(../img/hotel.png) -33px -1px;
+    top: -2px
+}
+
+.march1 {
+    position: fixed;
+    cursor: pointer;
+    height: 52px;
+    overflow: hidden;
+    width: 14px;
+    background: rgba(41, 39, 32, .8);
+    bottom: 235px;
+    left: 0;
+    z-index: 9999;
+    border-radius: 0 7px 7px 0;
+    display: none
+}
+
+.march2 {
+    position: absolute;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+    width: 14px;
+    background: #3a3832;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.march3 {
+    position: absolute;
+    height: 10px;
+    width: 7px;
+    background: url(../img/marchevente.png?5g5g) -18px 0
+}
+
+.march4 {
+    position: absolute;
+    width: 17px;
+    height: 25px;
+    background: url(../img/marchevente.png?5g5g);
+    border-radius: 0 6px 6px 0;
+    left: 27px;
+    top: 14px
+}
+
+.march5 {
+    position: absolute;
+    color: #afafa3;
+    font-size: 85%;
+    text-decoration: underline;
+    left: 60px;
+    top: 18px
+}
+
+.rar1 {
+    position: absolute;
+    box-shadow: 0 0 20px -10px #000;
+    width: 850px;
+    height: 605px;
+    background: #fff;
+    z-index: 999;
+    left: 100px;
+    top: 100px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: none
+}
+
+.rar2 {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 1px #c3c3c3
+}
+
+.rar3 {
+    position: absolute;
+    width: 61px;
+    top: 12px;
+    left: 15px;
+    height: 59px;
+    background: url(../img/rarescenter/template.png?6g6g) -7px -4px
+}
+
+.rar4 {
+    position: absolute;
+    color: #6e7b82;
+    font-size: 240%;
+    left: 93px;
+    top: 17px
+}
+
+.rar5 {
+    position: absolute;
+    height: 22px;
+    width: 63px;
+    background: #ffa66a;
+    left: 290px;
+    top: 17px;
+    color: #fff
+}
+
+.rar6 {
+    position: absolute;
+    cursor: pointer;
+    width: 41px;
+    top: 25px;
+    right: 57px;
+    height: 32px;
+    background: url(../img/rarescenter/template.png?6g6g) -159px -60px
+}
+
+.rar6:hover {
+    opacity: .7
+}
+
+.rar7 {
+    position: absolute;
+    width: 35px;
+    cursor: pointer;
+    top: 25px;
+    right: 17px;
+    height: 32px;
+    background: url(../img/rarescenter/template.png?6g6g) -205px -60px
+}
+
+.rar8 {
+    position: relative;
+    height: 67px;
+    width: 100%;
+    border-bottom: 1px solid #c3c3c3
+}
+
+.rar9 {
+    position: relative;
+    width: 620px;
+    float: left;
+    height: 100%
+}
+
+.rar10 {
+    position: relative;
+    float: left;
+    width: calc(47% - 1px);
+    border-right: solid 1px #c3c3c3;
+    height: 100%;
+    cursor: pointer
+}
+
+.rar10:hover .rar12 {
+    text-decoration: underline
+}
+
+.rar13:hover .rar12 {
+    text-decoration: underline
+}
+
+.rar15:hover .rar12 {
+    text-decoration: underline
+}
+
+.rar11 {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 16px;
+    background: url(../img/rarescenter/template.png?6g6g) -2px -112px
+}
+
+.rar12 {
+    position: absolute;
+    font-size: 190%
+}
+
+.rar13 {
+    position: relative;
+    float: left;
+    width: calc(53% - 1px);
+    cursor: pointer;
+    border-right: solid 1px #c3c3c3;
+    height: 100%
+}
+
+.rar14 {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 16px;
+    background: url(../img/rarescenter/template.png?6g6g) -36px -112px
+}
+
+.rar15 {
+    position: relative;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+    width: calc(100% - 620px)
+}
+
+.rar16 {
+    position: absolute;
+    height: 37px;
+    width: 31px;
+    left: 16px;
+    background: url(../img/rarescenter/template.png?6g6g) -204px -103px
+}
+
+.rar17 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #fff;
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+.rar17::-webkit-scrollbar {
+    width: 4px
+}
+
+.rar17::-webkit-scrollbar-track {
+    background: #c3c3c3
+}
+
+.rar17::-webkit-scrollbar-thumb {
+    background: #8c8c8c;
+    border-radius: 4px
+}
+
+.rar18 {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    border-top: 1px solid #c3c3c3
+}
+
+.rar19 {
+    position: relative;
+    width: 695px;
+    float: left;
+    height: 100%
+}
+
+.rar20 {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: calc(33.33% - 1px);
+    border-right: 1px solid #c3c3c3
+}
+
+.rar21 {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background: url(../img/rarescenter/template.png?6g6g) -108px -115px;
+    left: 20px
+}
+
+.rar22 {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    background: url(../img/rarescenter/template.png?6g6g) -43px -71px;
+    right: 10px
+}
+
+.rar23 {
+    position: absolute;
+    font-size: 150%;
+    left: 55px
+}
+
+.rar24 {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background: url(../img/rarescenter/template.png?6g6g) -139px -115px;
+    left: 20px
+}
+
+.rar25 {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    background: url(../img/rarescenter/template.png?6g6g) -81px -71px;
+    right: 10px
+}
+
+.rar26 {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background: url(../img/rarescenter/template.png?6g6g) -172px -115px;
+    left: 20px
+}
+
+.rar27 {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    background: url(../img/rarescenter/template.png?6g6g) -118px -71px;
+    right: 10px
+}
+
+.rar28 {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: calc(100% - 695px);
+    cursor: pointer
+}
+
+.rar28:hover .rar30 {
+    text-decoration: underline
+}
+
+.rar29 {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    background: url(../img/rarescenter/template.png?6g6g) -4px -71px;
+    right: 10px
+}
+
+.rar30 {
+    position: absolute;
+    font-size: 150%;
+    left: 10px
+}
+
+.rar31 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    background: #fff;
+    z-index: 999;
+    top: 0;
+    left: 0
+}
+
+.rar32 {
+    position: absolute;
+    height: 59px;
+    width: 59px
+}
+
+.rar33 {
+    position: absolute;
+    height: 49px;
+    width: 63px;
+    background: url(../img/rarescenter/template.png?6g6g) -82px -6px
+}
+
+.rar34 {
+    position: absolute;
+    width: 300px;
+    left: -350px;
+    top: 50px;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0 0 28px -10px #000
+}
+
+.rar35 {
+    position: relative;
+    left: 10px;
+    width: calc(100% - 30px);
+    background: #2bd75f;
+    padding: 5px;
+    color: #fff;
+    top: 11px;
+    font-size: 120%
+}
+
+.rar36 {
+    position: relative;
+    word-break: break-word;
+    left: 10px;
+    margin-top: 15px;
+    width: calc(100% - 20px)
+}
+
+.rar37 {
+    position: relative;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 5px
+}
+
+.rar38 {
+    position: relative;
+    cursor: pointer;
+    right: 10px;
+    float: right;
+    height: 100%;
+    width: 130px;
+    background: #2bd75f;
+    font-size: 120%;
+    color: #fff
+}
+
+.rar39 {
+    position: relative;
+    height: 71px;
+    width: 100%
+}
+
+.rar40 {
+    position: relative;
+    font-family: normal;
+    padding-left: 20px;
+    font-size: 150%;
+    text-align: center;
+    margin: 0;
+    width: calc(100% - 20px);
+    height: 69px;
+    border: none;
+    border-bottom: 1px solid #c3c3c3
+}
+
+.rar41 {
+    position: absolute;
+    left: 250px;
+    top: 22px;
+    height: 30px;
+    width: 30px;
+    background: url(../img/rarescenter/template.png?6g6g) -2px -149px
+}
+
+.rar42 {
+    position: relative;
+    width: calc(100% + 1px)
+}
+
+.rar43:hover .rar86 {
+    visibility: visible
+}
+
+.rar43 {
+    position: relative;
+    float: left;
+    height: 137px;
+    width: calc(33.33% - 1px);
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3
+}
+
+.rar44 {
+    position: absolute;
+    left: 13px;
+    top: 10px
+}
+
+.rar45 {
+    position: relative;
+    transform: scale(2);
+    image-rendering: pixelated;
+    top: 10px
+}
+
+.rar46 {
+    position: absolute;
+    font-size: 140%;
+    left: 40px;
+    top: 8px;
+    background: #fff
+}
+
+.rar47 {
+    position: absolute;
+    background: #d0f1ff;
+    padding: 4px;
+    left: 13px;
+    bottom: 42px;
+    color: #2dd3ff
+}
+
+.rar48 {
+    position: absolute;
+    background: #dedede;
+    padding: 4px;
+    left: 13px;
+    bottom: 13px
+}
+
+.rar49 {
+    position: absolute;
+    background: #fff;
+    right: 13px;
+    bottom: 13px
+}
+
+.rar50 {
+    position: relative;
+    height: 24px;
+    width: 80px;
+    margin-top: 5px
+}
+
+.rar51 {
+    position: absolute;
+    right: 2px;
+    background: url(../img/rarescenter/template.png?6g6g) -139px -115px;
+    width: 24px;
+    height: 24px
+}
+
+.rar52 {
+    position: absolute;
+    font-size: 150%;
+    right: 30px;
+    top: -1px
+}
+
+.rar53 {
+    position: relative;
+    height: 24px;
+    width: 80px;
+    margin-top: 5px
+}
+
+.rar54 {
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    background: url(../img/rarescenter/template.png?6g6g) -92px -153px;
+    width: 24px;
+    height: 24px
+}
+
+.rar55 {
+    position: absolute;
+    font-size: 150%;
+    right: 30px;
+    top: -1px
+}
+
+.rar56 {
+    position: relative;
+    height: 24px;
+    width: 80px;
+    margin-top: 5px
+}
+
+.rar57 {
+    position: absolute;
+    right: 2px;
+    background: url(../img/rarescenter/template.png?6g6g) -108px -115px;
+    width: 24px;
+    height: 24px
+}
+
+.rar58 {
+    position: absolute;
+    font-size: 150%;
+    right: 30px;
+    top: -1px
+}
+
+.rar59 {
+    position: absolute;
+    font-size: 140%;
+    left: 40px;
+    top: 8px;
+    background: #fff
+}
+
+.rar60 {
+    position: absolute;
+    height: 27px;
+    width: 27px;
+    background: url(../img/rarescenter/template.png?6g6g) -73px -113px;
+    right: 10px;
+    top: 10px
+}
+
+.rar61 {
+    position: absolute;
+    background: #b75eb7;
+    padding: 4px;
+    left: 13px;
+    bottom: 70px;
+    color: #fff
+}
+
+.rar62 {
+    position: absolute;
+    background: #fff;
+    right: 13px;
+    bottom: 13px
+}
+
+.rar63 {
+    position: relative;
+    cursor: pointer;
+    float: left;
+    height: 172px;
+    width: calc(33.33% - 1px);
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3
+}
+
+.rar63:hover {
+    opacity: .7
+}
+
+.rar64 {
+    position: relative;
+    transform: scale(2);
+    image-rendering: pixelated;
+    top: -9px
+}
+
+.rar65 {
+    position: absolute;
+    font-size: 140%;
+    left: 40px;
+    top: 8px;
+    background: #fff
+}
+
+.rar66 {
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    padding: 1px 6px;
+    color: #fff;
+    background: #ffa66a;
+    right: 15px;
+    top: 10px
+}
+
+.rar66:hover .rar159 {
+    display: block
+}
+
+.rar67 {
+    position: absolute;
+    background: #fff;
+    right: 13px;
+    bottom: 80px
+}
+
+.rar68 {
+    position: absolute;
+    height: 28px;
+    width: calc(100% - 26px);
+    left: 13px;
+    bottom: 45px
+}
+
+.rar69 {
+    position: relative;
+    float: right;
+    height: 100%;
+    background: #52de7c;
+    font-size: 120%;
+    padding: 0 10px
+}
+
+.rar70 {
+    position: relative;
+    float: left;
+    color: #fff;
+    margin-right: 5px
+}
+
+.rar71 {
+    position: relative;
+    float: left;
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+    background: url(../img/rarescenter/template.png?6g6g) -43px -152px
+}
+
+.rar72 {
+    position: relative;
+    float: left;
+    color: #fff;
+    margin-right: 5px
+}
+
+.rar73 {
+    position: relative;
+    float: left;
+    height: 17px;
+    width: 17px;
+    margin-right: 2px;
+    background: url(../img/rarescenter/template.png?6g6g) -67px -152px
+}
+
+.rar74 {
+    position: relative;
+    margin-right: 5px;
+    padding: 0 5px;
+    float: right;
+    height: 100%;
+    font-size: 120%;
+    background: #b75eb7;
+    color: #fff
+}
+
+.rar75 {
+    position: absolute;
+    height: 28px;
+    width: calc(100% - 26px);
+    left: 13px;
+    bottom: 13px
+}
+
+.rar76 {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: calc(50% - 3px);
+    background: #e2e2e2
+}
+
+.rar77 {
+    position: absolute;
+    right: 10px;
+    height: 17px;
+    width: 17px;
+    background: url(../img/rarescenter/template.png?6g6g) -67px -152px
+}
+
+.rar78 {
+    position: absolute;
+    left: 10px
+}
+
+.rar79 {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: calc(50% - 3px);
+    background: #e2e2e2
+}
+
+.rar80 {
+    position: absolute;
+    right: 10px;
+    height: 18px;
+    width: 18px;
+    background: url(../img/rarescenter/template.png?6g6g) -43px -152px
+}
+
+.rar81 {
+    position: absolute;
+    left: 10px
+}
+
+.rar82 {
+    position: absolute;
+    font-size: 150%;
+    width: 460px;
+    text-align: center;
+    left: calc(50% - 250px);
+    top: 100px
+}
+
+.rar83 {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    top: 0;
+    border-bottom: 1px solid #c3c3c3;
+    height: 71px;
+    width: calc(100% - 620px)
+}
+
+.rar83:hover .rar85 {
+    text-decoration: underline
+}
+
+.rar84 {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    background: url(../img/rarescenter/template.png?6g6g) -4px -71px;
+    left: 15px
+}
+
+.rar85 {
+    position: absolute;
+    font-size: 140%;
+    left: 55px;
+    color: #9b6937
+}
+
+.rar86 {
+    position: absolute;
+    visibility: hidden;
+    left: 0;
+    top: 2px;
+    width: 100%;
+    height: calc(100% - 3px);
+    background: #fff
+}
+
+.rar87 {
+    position: absolute;
+    top: 30px;
+    height: 36px;
+    width: 67px;
+    background: url(../img/rarescenter/template.png?6g6g) -160px -8px
+}
+
+.rar88 {
+    position: absolute;
+    top: 70px;
+    font-size: 140%
+}
+
+.rar89 {
+    position: absolute;
+    top: 2px;
+    display: none;
+    width: 100%;
+    height: 328px;
+    background: #f5f5f5
+}
+
+.rar90 {
+    position: relative;
+    height: 63px;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #c3c3c3
+}
+
+.rar91 {
+    position: absolute;
+    transform: scale(2);
+    image-rendering: pixelated;
+    top: 20px;
+    left: 22px
+}
+
+.rar92 {
+    position: absolute;
+    font-size: 190%;
+    left: 65px;
+    top: 13px
+}
+
+.rar93 {
+    position: absolute;
+    cursor: pointer;
+    font-size: 130%;
+    height: 48px;
+    width: 215px;
+    background: #f25b63;
+    color: #fff;
+    right: 13px;
+    top: 7px
+}
+
+.rar94 {
+    position: relative;
+    height: 118px;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #c3c3c3
+}
+
+.rar95 {
+    position: absolute;
+    height: 100%;
+    width: 157px;
+    border-right: 1px solid #c3c3c3
+}
+
+.rar96 {
+    image-rendering: pixelated;
+    transform: scale(2)
+}
+
+.rar97 {
+    position: absolute;
+    padding: 5px;
+    top: 3px;
+    right: 3px;
+    font-size: 120%;
+    background: #b75eb7;
+    color: #fff
+}
+
+.rar98 {
+    position: absolute;
+    right: 0;
+    width: calc(100% - 158px);
+    height: 100%
+}
+
+.rar99 {
+    position: relative;
+    height: 62px;
+    border-bottom: 1px solid #c3c3c3
+}
+
+.rar100 {
+    position: relative;
+    width: calc(33.33% - 1px);
+    height: 100%;
+    float: left;
+    border-right: 1px solid #c3c3c3
+}
+
+.rar101 {
+    position: relative;
+    font-size: 130%;
+    font-family: normal;
+    padding: 0 0 0 53px;
+    margin: 0;
+    width: calc(100% - 53px);
+    height: 100%;
+    border: none;
+    border-right: 1px solid #c3c3c3
+}
+
+.rar102 {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background: url(../img/rarescenter/template.png?6g6g) -108px -115px;
+    top: 19px;
+    left: 16px
+}
+
+.rar103 {
+    position: relative;
+    width: calc(33.33% - 1px);
+    height: 100%;
+    float: left;
+    border-right: 1px solid #c3c3c3
+}
+
+.rar104 {
+    position: relative;
+    font-size: 130%;
+    font-family: normal;
+    padding: 0 0 0 53px;
+    margin: 0;
+    width: calc(100% - 53px);
+    height: 100%;
+    border: none;
+    border-right: 1px solid #c3c3c3
+}
+
+.rar105 {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background: url(../img/rarescenter/template.png?6g6g) -139px -115px;
+    top: 19px;
+    left: 16px
+}
+
+.rar106 {
+    position: relative;
+    width: calc(33.33% - 1px);
+    height: 100%;
+    float: left;
+    border-right: 1px solid #c3c3c3
+}
+
+.rar107 {
+    position: relative;
+    font-size: 130%;
+    font-family: normal;
+    padding: 0 0 0 53px;
+    margin: 0;
+    width: calc(100% - 53px);
+    height: 100%;
+    border: none;
+    border-right: 1px solid #c3c3c3
+}
+
+.rar108 {
+    position: absolute;
+    height: 27px;
+    width: 27px;
+    background: url(../img/rarescenter/template.png?6g6g) -73px -113px;
+    top: 18px;
+    left: 16px
+}
+
+.rar109 {
+    position: relative;
+    width: 100%;
+    height: 55px
+}
+
+.rar110 {
+    position: absolute;
+    padding-left: 7px;
+    word-wrap: break-spaces;
+    height: 100%;
+    width: 271px;
+    border-right: 1px solid #c3c3c3
+}
+
+.rar111 {
+    position: absolute;
+    cursor: pointer;
+    font-size: 170%;
+    right: 0;
+    height: 100%;
+    width: calc(100% - 279px)
+}
+
+.rar111:hover {
+    text-decoration: underline
+}
+
+.rar112 {
+    position: relative;
+    width: 100%;
+    height: 145px
+}
+
+.rar113 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 296px;
+    border-right: 1px solid #c3c3c3;
+    background: #fff
+}
+
+.rar114 {
+    position: relative;
+    left: 13px;
+    top: 13px;
+    width: calc(100% - 26px);
+    height: calc(100% - 26px)
+}
+
+.rar115 {
+    position: relative;
+    width: 100%;
+    margin-bottom: 5px
+}
+
+.rar116 {
+    position: relative;
+    height: 30px;
+    margin-bottom: 5px
+}
+
+.rar117 {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: calc(50% - 5px);
+    background: #e2e2e2
+}
+
+.rar118 {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: calc(50% - 5px);
+    background: #e2e2e2
+}
+
+.rar119 {
+    position: relative;
+    width: 100%;
+    margin-bottom: 5px
+}
+
+.rar120 {
+    position: relative;
+    height: 30px;
+    margin-bottom: 5px
+}
+
+.rar121 {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: calc(50% - 5px);
+    background: #e2e2e2
+}
+
+.rar122 {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: calc(50% - 5px);
+    background: #e2e2e2
+}
+
+.rar123 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: calc(100% - 297px)
+}
+
+.rar124 {
+    position: relative;
+    left: 13px;
+    top: 13px;
+    height: calc(100% - 26px);
+    width: calc(100% - 26px)
+}
+
+.rar125 {
+    position: relative;
+    font-size: 110%
+}
+
+.rar126 {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 10px
+}
+
+.rar127 {
+    position: absolute;
+    font-family: normal;
+    font-size: 140%;
+    left: 0;
+    height: calc(100% - 2px);
+    padding: 0 0 0 50px;
+    margin: 0;
+    width: calc(50% - 55px);
+    border: 1px solid #c3c3c3
+}
+
+.rar128 {
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    height: 27px;
+    width: 27px;
+    background: url(../img/rarescenter/template.png?6g6g) -73px -113px
+}
+
+.rar129 {
+    position: absolute;
+    cursor: pointer;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: calc(50% - 5px);
+    background: #6fb0f1
+}
+
+.rar130 {
+    position: relative;
+    float: left;
+    height: 24px;
+    width: 24px;
+    background: url(../img/rarescenter/template.png?6g6g) -108px -115px
+}
+
+.rar131 {
+    position: relative;
+    color: #fff;
+    margin-left: 7px;
+    float: left;
+    font-size: 150%
+}
+
+.rar132 {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    height: 27px;
+    width: 27px;
+    background: url(../img/rarescenter/template.png?6g6g) -125px -150px
+}
+
+.rar133 {
+    position: absolute;
+    height: 17px;
+    width: 32px;
+    background: url(../img/rarescenter/template.png?6g6g) -158px -154px;
+    left: 10px
+}
+
+.rar134 {
+    position: relative;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid #c3c3c3
+}
+
+.rar135 {
+    position: relative;
+    cursor: pointer;
+    font-size: 165%;
+    float: left;
+    width: calc(50% - 1px);
+    height: 100%;
+    border-right: 1px solid #c3c3c3
+}
+
+.rar135:hover {
+    text-decoration: underline
+}
+
+.rar136 {
+    position: relative;
+    cursor: pointer;
+    font-size: 165%;
+    float: right;
+    width: 50%;
+    height: 100%
+}
+
+.rar136:hover {
+    text-decoration: underline
+}
+
+.rar137 {
+    position: relative;
+    height: 55px;
+    width: calc(100% + 30px);
+    border-bottom: 1px solid #c3c3c3
+}
+
+.rar138 {
+    position: relative;
+    float: left;
+    height: 55px;
+    width: 55px;
+    border-right: 1px solid #c3c3c3
+}
+
+.rar139 {
+    position: relative;
+    float: left;
+    height: 55px;
+    width: 350px;
+    border-right: 1px solid #c3c3c3
+}
+
+.rar140 {
+    position: absolute;
+    left: 13px;
+    top: 16px
+}
+
+.rar141 {
+    position: absolute;
+    font-size: 140%;
+    left: 42px;
+    top: 13px
+}
+
+.rar142 {
+    position: relative;
+    float: left;
+    height: 55px;
+    width: 230px;
+    border-right: 1px solid #c3c3c3
+}
+
+.rar143 {
+    position: relative;
+    float: left;
+    margin-right: 7px;
+    height: 24px;
+    width: 24px;
+    background: url(../img/rarescenter/template.png?6g6g) -108px -115px
+}
+
+.rar144 {
+    position: relative;
+    float: left;
+    margin-right: 7px;
+    font-size: 140%
+}
+
+.rar145 {
+    position: relative;
+    float: left;
+    margin-right: 7px;
+    height: 24px;
+    width: 24px;
+    background: url(../img/rarescenter/template.png?6g6g) -139px -115px
+}
+
+.rar146 {
+    position: relative;
+    float: left;
+    height: 55px;
+    width: 208px
+}
+
+.rar147 {
+    position: absolute;
+    cursor: pointer;
+    padding: 5px 15px;
+    font-size: 120%;
+    background: #ebebeb
+}
+
+.rar148 {
+    position: absolute;
+    font-size: 75%;
+    width: 100%;
+    text-align: center;
+    top: 3px;
+    color: #646464
+}
+
+.rar149 {
+    position: relative;
+    width: calc(100% - 30px);
+    height: 300px;
+    top: 13px;
+    left: 15px
+}
+
+.rar150 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 76px;
+    width: 100%;
+    border-top: 1px solid #c3c3c3
+}
+
+.rar151 {
+    position: absolute;
+    width: calc(50% - 1px);
+    border-right: 1px solid #c3c3c3;
+    height: 100%
+}
+
+.rar152 {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    background: url(../img/rarescenter/template.png?6g6g) -195px -142px;
+    left: 15px
+}
+
+.rar153 {
+    position: absolute;
+    left: 75px;
+    font-size: 180%
+}
+
+.rar154 {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    height: 100%
+}
+
+.rar155 {
+    position: absolute;
+    height: 24px;
+    top: 12px;
+    width: 24px;
+    background: url(../img/rarescenter/template.png?6g6g) -108px -115px;
+    left: 25px
+}
+
+.rar156 {
+    position: absolute;
+    font-size: 140%;
+    left: 60px;
+    top: 10px
+}
+
+.rar157 {
+    position: absolute;
+    height: 19px;
+    top: 45px;
+    width: 24px;
+    background: url(../img/rarescenter/template.png?6g6g) -92px -153px;
+    left: 25px
+}
+
+.rar158 {
+    position: absolute;
+    font-size: 140%;
+    top: 40px;
+    left: 60px
+}
+
+.rar159 {
+    position: absolute;
+    display: none;
+    height: 125px;
+    width: 258px;
+    background: #fff;
+    left: -237px;
+    top: 24px
+}
+
+.rar160 {
+    position: absolute;
+    height: 27px;
+    right: 0;
+    width: 196px;
+    color: #000;
+    bottom: 65px;
+    border: 1px solid #000
+}
+
+.rar161 {
+    position: absolute;
+    height: 28px;
+    width: 100%;
+    bottom: 31px
+}
+
+.rar162 {
+    position: absolute;
+    bottom: 0;
+    float: right;
+    height: 28px;
+    color: #000;
+    width: 100%;
+    background: #e2e2e2
+}
+
+.rar163 {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    height: 400px;
+    top: 0;
+    z-index: 3;
+    visibility: hidden
+}
+
+.rar164 {
+    position: absolute;
+    font-size: 200%;
+    top: 100px
+}
+
+.rar165 {
+    position: relative;
+    font-size: 140%;
+    color: #fff;
+    float: left;
+    background: #52de7c;
+    margin-right: 3px;
+    padding: 15px 95px
+}
+
+.rar166 {
+    position: relative;
+    font-size: 140%;
+    color: #fff;
+    float: left;
+    background: #da5750;
+    margin-right: 3px;
+    padding: 15px 95px
+}
+
+.rar167 {
+    position: fixed;
+    z-index: 9999999991;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    height: 37px;
+    left: 243px;
+    top: 20px;
+    cursor: pointer;
+    width: 100px;
+    background: url(../img/pagetemplate.png?8g8g) -267px -293px
+}
+
+.rar167:hover {
+    filter: grayscale(.8);
+    -webkit-filter: grayscale(.8);
+    -moz-filter: grayscale(.8);
+    -o-filter: grayscale(.8);
+    -ms-filter: grayscale(.8)
+}
+
+.rar168 {
+    position: absolute;
+    font-size: 120%;
+    left: 40px;
+    top: 7px
+}
+
+.hel1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    background: #ff9a57
+}
+
+.hel2 {
+    position: absolute;
+    color: #fff;
+    font-size: 190%;
+    left: 30px;
+    top: 38px
+}
+
+.hel3 {
+    position: absolute;
+    overflow: hidden;
+    width: calc(100% - 410px);
+    height: 56px;
+    right: 30px;
+    top: 27px
+}
+
+.hel4 {
+    position: relative;
+    float: right;
+    margin-left: 10px;
+    height: 100%;
+    background: #fff;
+    font-size: 160%;
+    padding: 0 25px;
+    color: #ff9a57;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.hel4:hover {
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.OpacityHover:hover {
+    opacity: .7;
+    cursor: pointer
+}
+
+.FlexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.RotateItem {
+    animation: spin .5s linear infinite
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.voc1 {
+    position: relative;
+    display: flex;
+    left: -10px;
+    width: calc(100% + 20px);
+    top: -10px;
+    visibility: hidden;
+    z-index: 99;
+    align-items: center
+}
+
+.voc3 {
+    position: absolute;
+    display: flex;
+    z-index: 99;
+    width: 100%;
+    justify-content: center;
+    font-size: 250%;
+    align-items: center;
+    top: 20px;
+    border-radius: 10px
+}
+
+.voc4 {
+    position: absolute;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 90px;
+    left: calc(50% - 115px);
+    top: 95px;
+    margin-left: -50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #fff
+}
+
+.voc5 {
+    position: relative;
+    margin-right: 20px;
+    float: left;
+    height: 67px;
+    width: 67px;
+    background: url(../img/vocal.png?x)
+}
+
+.voc6 {
+    position: relative;
+    margin-right: 20px;
+    float: left;
+    height: 67px;
+    width: 67px;
+    background: url(../img/vocal.png?x) -67px 0
+}
+
+.voc7 {
+    position: relative;
+    margin-right: 20px;
+    float: left;
+    height: 67px;
+    width: 67px;
+    background: url(../img/vocal.png?x) -134px
+}
+
+.voc8 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 120%;
+    border-radius: 10px;
+    top: 100px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background: #fff;
+    color: #000
+}
+
+.voc9 {
+    position: absolute;
+    width: 22px;
+    height: 28px;
+    background: url(../img/vocal.png?x) -201px -20px;
+    left: 7px;
+    top: 4px
+}
+
+.vocScale:hover {
+    transition: .1s;
+    opacity: .4;
+    cursor: pointer
+}

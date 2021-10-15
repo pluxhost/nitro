@@ -1,0 +1,95 @@
+body{
+	background-color: black;
+	font-family: "Ubuntu","Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+}
+
+.hb-container{
+	margin: 0 auto;
+	max-width: 600px;
+	background-color: #111f24;
+	color: white;
+	margin-top: 80px;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 12px 24px 12px 24px;
+	color: #96c5ee;
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 400;
+	margin: .6em 0;
+	line-height: 1.2;
+	text-transform: uppercase;
+	color: white;
+}
+
+.hb-container p{
+	margin: .75em 0;
+	font-size: 16px;
+}
+
+.hb-container ul{
+	list-style-type: disc;
+	margin: 12px 0;
+	padding-left: 26px;
+}
+
+a {
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    text-decoration: none;
+}
+
+.frank{
+	float: right;
+}
+
+.hb-button_nav{
+	position: absolute;
+	position: fixed;
+	top: 15px;
+	left: 15px;
+}
+
+.hb-button_nav .button-left{
+	background-color: #FFB900;
+	border: 2px solid #FFEA00;
+	font-size: 12px;
+	padding: 5px;
+	border-radius: 5px 0px 0px 5px;
+	display: inline-block;
+}
+
+.hb-button_nav .button-center{
+	background-color: #FFB900;
+	border: 2px solid #FFEA00;
+	font-size: 12px;
+	padding: 5px;
+	border-radius: 0px;
+	display: inline-block;
+}
+
+.hb-button_nav .button-right{
+	background-color: #FFB900;
+	border: 2px solid #FFEA00;
+	font-size: 12px;
+	padding: 5px;
+	border-radius: 0px 5px 5px 0px;
+	display: inline-block;
+}
+
+.hb-button_nav .button-left:hover, .hb-button_nav .button-center:hover, .hb-button_nav .button-right:hover{
+	background-color: #FFD400;
+	border: 2px solid #FFFD70;
+}
+
+.hb-button_nav .button-left img, .hb-button_nav .button-center img, .hb-button_nav .button-right img{
+	vertical-align: top;
+}
+
+.hb-button_nav .button-left a, .hb-button_nav .button-center a, .hb-button_nav .button-right a{
+	color: black;
+	text-transform: uppercase;
+}

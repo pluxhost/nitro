@@ -1,0 +1,572 @@
+#boutiqueload {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+    top: 0px;
+    display: none;
+}
+#b74 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(70,65,65);
+    opacity: 0.9;
+}
+#fermeture {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: url(../images/croix2.png?5x5x);
+    right: 5%;
+    top: 5%;
+    cursor: pointer;
+}
+#b97 {
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    background: rgba(255,255,255,0.4);
+    right: 0px;
+}
+#b98 {
+    position: relative;
+    width: 100%;
+    margin-top: 300px;
+}
+#b99 {
+    position: absolute;
+    height: 88px;
+    width: 100px;
+    background: rgb(214, 214, 214);
+    right: 0px;
+}
+#b100 {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    background: url(../images/search.png?5x5x);
+    top: 25px;
+    right: 35px;
+}
+#b101 {
+    position: relative;
+    width: calc(100% - 90px);
+    height: 88px;
+    background: rgb(214, 214, 214);
+    border: 0;
+    border-radius: 0;
+    padding-left: 20px;
+    font-family: inherit;
+    font-size: 160%;
+    color: white;
+}
+.b102 {
+    position: relative;
+    width: calc(100%);
+    height: 65px;
+    background: rgba(255,255,255,0.1);
+    cursor: pointer;
+    color: rgb(50,50,50);
+    padding-left: 20px;
+    font-size: 23px;
+    padding-top: 15px;
+    color: white;
+}
+#b103 {
+    position: relative;
+    width: calc(85% - 380px);
+    left: calc(15% + 6px);
+    height: calc(100%);
+    top: 160px;
+    overflow: auto;
+}
+#b104 {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    image-rendering: pixelated;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#b105 {
+    position: absolute;
+    width: 200px;
+    height:  60px;
+    padding: 5px 10px 5px 10px;
+    background: rgba(40,45,45,0.8);
+    color: white;
+    font-size: 20px;
+    bottom: 5px;
+    padding: 13px 0px;
+    right: 20px;
+    border-radius: 5px;
+    background: rgb(48,177,24);
+    border-bottom: 4px solid rgb(37, 115, 23);
+    border-radius: 8px;
+}
+#b106 {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(52,44,49,0.8);
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+#fermetureretour {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: url(../images/croix3.png?5x5x);
+    right: 5%;
+    top: 5%;
+    cursor: pointer;
+}
+#b107 {
+    position: relative;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#b108 {
+    position: relative;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    width: 300px;
+    background: url(../images/Shop/boule_grand.png?5x5x);
+    image-rendering: pixelated;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+#b109 {
+    transform: scale(4);
+    image-rendering: pixelated;
+}
+#b110 {
+    position: relative;
+    min-height: 110px;
+    width: 40%;
+    float: left;
+    background: rgba(139,131,135,0.7);
+    word-wrap: break-word;
+    border-radius: 25px;
+    color: white;
+    padding: 20px;
+    font-size: 250%;
+    display: flex;
+    align-items: center;
+}
+#b111 {
+    position: fixed;
+    width: 100%;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#b62 {
+    position: absolute;
+    cursor: pointer;
+    bottom: 50px;
+    transition: 0.05s;
+    padding: 0px 25px 0px 25px;
+    height: 75px;
+    background: rgb(48,177,24);
+    border-bottom: 4px solid rgb(37, 115, 23);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 220%;
+    color: white;
+}
+#b63 {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: calc(100% - 8px);
+    height: 6px;
+    background: rgba(255,255,255,0.3);
+}
+#b41 {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+    background: rgba(230,230,230,0.8);
+    top: 0px;
+    display: none;
+}
+#b42 {
+    position: fixed;
+    height: 65px;
+    width: 63px;
+    background: url(../images/pagetemplate.png?5x5x) -80px 0px;
+    top: 40%;
+    z-index: 9999999;
+    left: calc(50% - 32px);
+    display: none;
+}
+#b43 {
+    position: fixed;
+    top: 80px;
+    left: calc(15% + 70px);
+    z-index: 9999999;
+    color: white;
+    font-size: 300%;
+    display: none;
+}
+#b64 {
+    position: fixed;
+    width: 100%;
+    z-index: 99999999;
+    display: flex;
+    justify-content: center;
+}
+#b65 {
+    position: fixed;
+    top: -100px;
+    height: 60px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 170%;
+    padding: 0px 20px 0px 20px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+#b66 {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#badgediamants {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background: url(../images/pageboutique1.png?5x5x) -6px -177px;
+    float: left;
+}
+#bduckets {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background: url(../images/pageboutique1.png?5x5x) -53px -177px;
+    float: left;
+}
+#bdiamants {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background: url(../images/pageboutique1.png?5x5x) -6px -177px;
+    float: left;
+}
+#bvip {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background: url(../images/pageboutique1.png?5x5x) -105px -177px;
+    float: left;
+    top: -8px;
+}
+#b67 {
+    position: absolute;
+    height: 55px;
+    width: 65px;
+    background: url(../images/pageboutique1.png?5x5x) -163px -171px;
+    right: -25px;
+    cursor: pointer;
+}
+#b68 {
+    position: absolute;
+    background: rgb(48,177,24);
+    color: white;
+    font-size: 50%;
+    padding: 3px;
+    border-radius: 5px;
+    right: -18px;
+    top: 4px;
+}
+#bplus {
+    position: absolute;
+    height: 50px;
+    width: 60px;
+    background: url(../images/pageboutique1.png?5x5x) -235px -177px;
+    left: -35px;
+    top: 4px;
+    cursor: pointer;
+}
+#b67:hover, #bplus:hover {
+    -webkit-filter: drop-shadow(2px 1px 0 #fff) drop-shadow(-2px 1px 0 #fff) drop-shadow(0 -2px 0 #fff);
+}
+#b48 {
+    position: relative;
+    font-size: 160%;
+    color: white;
+    line-height: 33px;
+}
+#b50 {
+    position: relative;
+    height: 500px;
+    width: calc(100% - 415px);
+    float: left;
+    top: -100px;
+}
+
+#b51 {
+    position: absolute;
+    image-rendering: pixelated;
+    left: -180px;
+    top: -45px;
+    -webkit-filter: drop-shadow(3px 1px 0 #fff) drop-shadow(-3px 2px 0 #fff) drop-shadow(0 -3px 0 #fff);
+}
+#b52 {
+    position: relative;
+    font-size: 230%;
+    color: white;
+    margin-top: 120px;
+}
+#b53 {
+    position: relative;
+    margin-top: 20px;
+}
+#b54 {
+    position: absolute;
+    color: white;
+    font-size: 150%;
+    top: 40px;
+    left: 80px;
+}
+#b55 {
+    position: relative;
+    width: 400px;
+    float: left;
+    margin-top: 50px;
+}
+#b56 {
+    position: relative;
+    width: calc(100% - 20px);
+    height: 190px;
+    background: rgb(255,205,0);
+    border: 3px solid black;
+    text-align: center;
+    left: 0px;
+}
+#b57 {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background: rgb(255,231,0);
+    bottom: 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+#b58 {
+    position: absolute;
+    color: rgb(57,35,23);
+    font-size: 220%;
+    top: 10px;
+    left: 15px;
+}
+#b10 {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: url(../images/pageboutique1.png?5x5x) -208px -130px;
+    left: 34px;
+    top: 47px;
+}
+#b59 {
+    position: absolute;
+    font-size: 100%;
+    color: rgb(82,50,33);
+    top: 92px;
+    left: 45px;
+}
+#b60 {
+    position: absolute;
+    height: 60px;
+    width: 80px;
+    background: url(../images/pageboutique1.png?5x5x) -397px -105px;
+    right: -27px;
+    top: 50px;
+}
+#b61 {
+    position: absolute;
+    height: 13px;
+    width: calc(100% - 14px);
+    background: rgba(0,0,0,0.2);
+    bottom: -16px;
+    left: 7px;
+}
+#b16 {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    background: url(../img/pageboutique1.png?5x5x) -298px 0px;
+    width: 95px;
+    height: 103px;
+}
+#b44 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(0deg,rgb(170,88,182) , rgb(49,102,238));
+}
+#b35 {
+    position: relative;
+    height: 200px;
+    width: 90%;
+    background: rgb(135,152,161);
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius: 1px;
+}
+#b36 {
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    background: url(../images/pageboutique1.png?5x5x) -167px 0px;
+    left: -28px;
+    top: 2px;
+}
+#b37 {
+    position: relative;
+    left: 110px;
+    color: white;
+    width: calc(100% - 150px);
+    top: 15px;
+    word-wrap: break;
+}
+#b38n {
+    width: calc(100% + 15px);
+}
+.indexinput {
+    border-radius: 2px;
+    position: relative;
+    width: 315px;
+    height: 55px;
+    background: rgb(245,245,245);
+    border: 0;
+    color: rgb(127,127,127);
+    font-family: unset;
+    font-size: 25px;
+    padding-left: 25px;
+}
+#indexformsepare {
+    position: relative;
+    height: 7px;
+}
+#settings43 {
+    position: relative;
+    width: 97%;
+    height: 90px;
+    background: rgb(34,177,76);
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+#support {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 999999999;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+#footer30 {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    height: calc(100% - 10px);
+}
+#footer31 {
+    position: relative;
+    font-size: 260%;
+    color: white;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+#footer36 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: url(../images/forum.png?5x5x);
+    background-position: -53px 219px;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+    cursor: pointer;
+}
+#footer23 {
+    position: relative;
+    height: calc(100% - 80px);
+    overflow: auto;
+    padding-right: 15px;
+}
+#support {
+    position: fixed;
+    /* height: 100%; */
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 999999999;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+#footer30 {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    height: calc(100% - 40px);
+}
+#footer31 {
+    position: relative;
+    font-size: 260%;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#supporterreur {
+    position: relative;
+    height: 48px;
+    width: calc(100% - 20px);
+    background: rgb(254,166,75);
+    margin-bottom: 9px;
+    color: white;
+    padding: 22px 0px 0px 20px;
+    font-size: 120%;
+    display: none;
+}
+#indexsubmit {
+    height: 70px;
+    background: rgb(34,177,76);
+    border: 0;
+    font-size: 150%;
+    color: white;
+    cursor: pointer;
+}

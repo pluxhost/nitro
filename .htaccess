@@ -1,0 +1,71 @@
+RewriteEngine On
+
+# FUNCIONES - CMS by Forbi
+RewriteRule ^logout(|/)$ /logout.php
+RewriteRule ^bye(|/)$ /logout.php
+# END FUNCIONES - CMS by Forbi
+
+
+# HABBO-IMAGING - CMS by Forbi
+RewriteRule ^habbo-imaging/avatarimage(|/)$ ./habbo-imaging/avatarimage.php
+RewriteRule ^habbo-imaging/badge/(.*) habbo-imaging/badge.php?badge=$1
+RewriteRule ^swfz/c_images/notifications/fig/(..*).png(|/)$ swfz/c_images/notifications/user.php?fig=$1
+RewriteRule ^habbo-imaging/head(|/)$ ./habbo-imaging/user-badge/head.php
+# END HABBO-IMAGING - CMS by Forbi
+
+
+# Cactus-Files - CMS by Forbi
+
+RewriteRule ^([a-zA-Z0-9_-]+)(|/)$ index.php?url=$1
+
+
+RewriteRule ^community/news(|/)$ index.php?url=community-news
+RewriteRule ^community/news/([a-zA-Z0-9_-]+)(|/)$ index.php?url=community-news&id=$1
+RewriteRule ^community/staff(|/)$ index.php?url=community-staff
+RewriteRule ^community/couples(|/)$ index.php?url=community-couples
+RewriteRule ^community/photos(|/)$ index.php?url=community-photos
+RewriteRule ^community/forum(|/)$ index.php?url=community-forum
+RewriteRule ^community/forum/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)(|/)$ index.php?url=community-forum-functions&type=$1&id=$2
+RewriteRule ^community/forum/create(|/)$ index.php?url=community-forum-functions&type=create
+
+RewriteRule ^top/rich(|/)$ index.php?url=top-rich
+RewriteRule ^top/stats(|/)$ index.php?url=top-stats
+
+RewriteRule ^help/safety(|/)$ index.php?url=help-safety
+RewriteRule ^help/habboAttitude(|/)$ index.php?url=help-habboAttitude
+RewriteRule ^help/newbie(|/)$ index.php?url=help-newbie
+
+RewriteRule ^shop/badges(|/)$ index.php?url=shop-badges
+RewriteRule ^shop/dedication(|/)$ index.php?url=shop-dedication
+
+
+
+# END Cactus-Files - CMS by Forbi
+
+
+
+<Files *.css>
+SetOutputFilter DEFLATE
+</Files>
+<Files *.js>
+SetOutputFilter DEFLATE
+</Files>
+
+ErrorDocument 400 /404.php
+ErrorDocument 401 /404.php
+ErrorDocument 403 /404.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /404.php
+
+# BEGIN Compress text Cactus-Files - CMS by Forbi
+<ifModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/xml text/css text/plain
+  AddOutputFilterByType DEFLATE image/svg+xml application/xhtml+xml application/xml
+  AddOutputFilterByType DEFLATE application/rdf+xml application/rss+xml application/atom+xml
+  AddOutputFilterByType DEFLATE text/javascript application/javascript application/x-javascript application/json
+  AddOutputFilterByType DEFLATE application/x-font-ttf application/x-font-otf
+  AddOutputFilterByType DEFLATE font/truetype font/opentype
+
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+</ifModule>
+# END Compress text Cactus-Files - CMS by Forbi
